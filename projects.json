@@ -1,0 +1,14 @@
+[
+    {
+        "name": "python ai assistant",
+        "priority": "medium",
+        "deadline": "10-12-2025",
+        "description": "a web with an ai assistant using python"
+    },
+    {
+        "name": "ai assistant",
+        "priority": "high",
+        "deadline": "18-10-2025",
+        "description": "ai assistant using machine learning"
+    }
+]

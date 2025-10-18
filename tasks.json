@@ -1,0 +1,26 @@
+[
+    {
+        "task_name": "clean windows",
+        "task_status": "unfinished",
+        "task_priority": "medium",
+        "due_date": "10-11-2025"
+    },
+    {
+        "task_name": "do homework",
+        "task_status": "finished",
+        "task_priority": "high",
+        "due_date": null
+    },
+    {
+        "task_name": "wash the dishes",
+        "task_status": "unfinished",
+        "task_priority": "low",
+        "due_date": "18-10-2025"
+    },
+    {
+        "task_name": "wash dishes",
+        "task_status": "unfinished",
+        "task_priority": "low",
+        "due_date": null
+    }
+]
