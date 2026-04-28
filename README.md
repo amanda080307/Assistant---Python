@@ -1,17 +1,42 @@
 Python Assistant
-- This is a personal assistant made by python that assists the user in everyday essentials
+A command-line personal assistant built in Python to help manage everyday tasks, schedules, and projects, while also providing real-time information such as weather updates and news headlines.
 
-#Features 
-- Personal assistant that can be used for various tasks, such as handling projects, tasks, schedules, giving information about weather and the main news headlines
-- This program stores tasks, schedules and projects on three seperate json files(given as example files)
-- User can add tasks, edit, view, remove, add due date, filter and use the search bar
-- User can manage projects by adding them, viewing, removing, viewing projects for a specific month and using the search bar
-- User can add main schedules, view, remove, search for schedules in a specific date, use the search bar
-- For these three, user gets a reminder when a deadline is approaching
-- The weather o[ption offers data for a specific city
-- The news headlines gives the main news headlines for a country and links where the user can read more
-- User can filter the category of the news if requested
-- Two classes for schedule and project
+#Features
+ - Task Management
+ - Add, edit, view, and delete tasks
+ - Set due dates and receive deadline reminders
+ - Search and filter tasks
+ - Project Management
+ - Add, view, and remove projects
+ - Filter projects by month
+ - Search functionality
+ - Schedule Management
+ - Add, view, and delete schedules
+ - Search schedules by specific date
+ - Deadline reminders for upcoming events
+ - Additional Features
+ - Weather information for a selected city
+ - Latest news headlines by country
+ - Option to filter news by category
+ - Direct links to full news articles
+ - Data Storage
 
-  #Libraries
-  - Already imported: datetime, re, json, requests
+#All data is stored locally using JSON files:
+tasks.json
+projects.json
+schedules.json
+
+#Technical Details
+Built using object-oriented programming (OOP)
+Includes dedicated classes for: Schedule & Project
+
+#Libraries Used
+datetime
+re
+json
+requests
+How to Run
+python main.py
+
+Notes
+This project was developed as part of my learning journey in Python, focusing on building practical applications and improving problem-solving skills.
