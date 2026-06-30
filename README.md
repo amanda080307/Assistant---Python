@@ -1,42 +1,50 @@
-Python Assistant
-A command-line personal assistant built in Python to help manage everyday tasks, schedules, and projects, while also providing real-time information such as weather updates and news headlines.
+# Personal Assistant
 
-#Features
- - Task Management
- - Add, edit, view, and delete tasks
- - Set due dates and receive deadline reminders
- - Search and filter tasks
- - Project Management
- - Add, view, and remove projects
- - Filter projects by month
- - Search functionality
- - Schedule Management
- - Add, view, and delete schedules
- - Search schedules by specific date
- - Deadline reminders for upcoming events
- - Additional Features
- - Weather information for a selected city
- - Latest news headlines by country
- - Option to filter news by category
- - Direct links to full news articles
- - Data Storage
+A command-line personal assistant built in Python for managing tasks, schedules, and projects, with real-time weather and news integrations via external APIs.
 
-#All data is stored locally using JSON files:
-tasks.json
-projects.json
-schedules.json
+## Features
 
-#Technical Details
-Built using object-oriented programming (OOP)
-Includes dedicated classes for: Schedule & Project
+**Task Management**
+- Add, edit, view, and delete tasks
+- Set due dates and receive deadline reminders
+- Search and filter by keyword
 
-#Libraries Used
-datetime
-re
-json
-requests
-How to Run
-python main.py
+**Project Management**
+- Add, view, and remove projects
+- Filter by month
+- Search functionality
 
-Notes
-This project was developed as part of my learning journey in Python, focusing on building practical applications and improving problem-solving skills.
+**Schedule Management**
+- Add, view, and delete scheduled events
+- Search by specific date
+- Deadline reminders for upcoming events
+
+**Live Data**
+- Current weather for any city (via weather API)
+- Latest news headlines by country and category
+- Direct links to full articles
+
+**Storage**
+- All data persisted locally in JSON files (`tasks.json`, `projects.json`, `schedules.json`)
+
+## Project Structure
+├── support.py       # Main application logic
+├── tasks.json       # Task data
+├── projects.json    # Project data
+└── schedules.json   # Schedule data
+
+## Concepts Demonstrated
+
+- Object-oriented programming (dedicated classes for Schedule and Project)
+- REST API consumption with `requests`
+- JSON file I/O for persistent storage
+- Date handling with `datetime`
+- Input validation with `re`
+
+## How to Run
+
+```bash
+python support.py
+```
+
+Requires a `requests` library (`pip install requests`) and valid API keys for weather and news services.
